@@ -9,13 +9,13 @@ The application is built using the PyQT6 library.
 
 **<u>Files</u>**
 
-- ###**main.py**
+- **main.py**
 
   - This executed the main application window, 
   - Allows user to provide an input 
   - Calls the backend program that makes the call to OpenAI ChatGPT model for responses
   - Returns the response from OpenAi
-- ###**backend.py**
+- **backend.py**
   - contains the get response method that will create the input to send to ChatGPT
   - returns response from the model.
 
